@@ -8,8 +8,8 @@ namespace Topic_3___Keyboard_Input
         {
             //Joel
             //Greetings
-            string name = "You";
-            string computer = "Computer";
+            string name = "YOU";
+            string computer = "COMPUTER";
             string age;
             string year;
 
@@ -20,6 +20,7 @@ namespace Topic_3___Keyboard_Input
 
             Console.WriteLine($"{name}:");
             name = Console.ReadLine();
+            name = name.ToUpper();
 
             Console.WriteLine();
 
@@ -45,6 +46,7 @@ namespace Topic_3___Keyboard_Input
 
             Console.WriteLine($"{name}:");
             computer = Console.ReadLine();
+            computer = computer.ToUpper();
 
             Console.WriteLine();
 
@@ -55,6 +57,10 @@ namespace Topic_3___Keyboard_Input
 
             Console.WriteLine($"{name}:");
             year = Console.ReadLine();
+
+            Console.Clear();
+
+
 
         }
     }
